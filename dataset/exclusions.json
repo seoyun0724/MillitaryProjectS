@@ -1,0 +1,37 @@
+[
+  {
+    "source_index": 1,
+    "source_file": "차 위쪽-1.png",
+    "reason": "윗면 렌더링이며 원본에 빨간 가이드 선이 포함됨"
+  },
+  {
+    "source_index": 5,
+    "source_file": "차 정면-4.png",
+    "reason": "전면 렌더링에 빨간 라벨 가이드가 이미지에 포함됨"
+  },
+  {
+    "source_index": 6,
+    "source_file": "차 좌측 대각선-뒤-1.png",
+    "reason": "배경 제거된 제품 렌더링으로 실제 촬영 데이터와 도메인 차이가 큼"
+  },
+  {
+    "source_index": 7,
+    "source_file": "차 좌측 대각선-뒤-2.png",
+    "reason": "후면 대각선 렌더링이며 원본에 빨간 가이드 박스와 선이 포함됨"
+  },
+  {
+    "source_index": 11,
+    "source_file": "차 좌측 대각선-앞-4.png",
+    "reason": "전면 대각선 렌더링이며 원본에 빨간 가이드 원과 선이 포함됨"
+  },
+  {
+    "source_index": 15,
+    "source_file": "차 좌측면-4.png",
+    "reason": "저해상도 렌더링에 테두리와 가이드 선이 포함됨"
+  },
+  {
+    "source_index": 18,
+    "source_file": "차 후면-3.png",
+    "reason": "후면 렌더링에 원본 라벨 가이드 박스와 선이 포함됨"
+  }
+]

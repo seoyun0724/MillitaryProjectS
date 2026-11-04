@@ -1,0 +1,7 @@
+차량 외장 부품 라벨링
+대상: KGM/쌍용 렉스턴 스포츠 및 칸. 사진마다 정확한 연식/트림은 미상.
+Bounding box는 최종 JPG 픽셀 좌표 [x_min,y_min,x_max,y_max].
+클래스 목록: hood(후드), grille(그릴), bumper(범퍼), windshield(앞유리), window(창문), headlamp(헤드램프), daytime_running_light(주간주행등), tire(타이어), wheel(휠), tailgate(픽업 테일게이트).
+방향지시등은 사진에서 헤드램프와 독립된 경계를 확실히 나누기 어려워 라벨링하지 않음. 겹침/가림은 보이는 영역 기준으로 확실한 객체만 표시.
+요청 스키마에는 confidence 필드가 없으므로 추가하지 않음. 포함 이미지는 육안상 박스 경계 확인이 가능하다고 판단한 항목만 수록.
+원본 대응은 이미지 파일명 숫자 순서가 ZIP 추출 순서이며, 제외 내역은 exclusions.json 참조.

@@ -1,0 +1,885 @@
+{
+  "classes": [
+    "hood",
+    "grille",
+    "bumper",
+    "windshield",
+    "window",
+    "headlamp",
+    "daytime_running_light",
+    "tire",
+    "wheel",
+    "tailgate"
+  ],
+  "images": [
+    {
+      "file_name": "000001.jpg",
+      "width": 775,
+      "height": 586,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            80,
+            110,
+            697,
+            257
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            105,
+            7,
+            671,
+            123
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            28,
+            146,
+            161,
+            226
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            614,
+            145,
+            744,
+            226
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            33,
+            146,
+            151,
+            158
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            624,
+            146,
+            738,
+            158
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            109,
+            182,
+            653,
+            352
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            9,
+            276,
+            765,
+            531
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            12,
+            493,
+            145,
+            585
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            646,
+            485,
+            761,
+            584
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000002.jpg",
+      "width": 489,
+      "height": 430,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            47,
+            91,
+            440,
+            205
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            71,
+            18,
+            419,
+            102
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            33,
+            121,
+            133,
+            172
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            371,
+            121,
+            467,
+            169
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            41,
+            120,
+            132,
+            133
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            380,
+            120,
+            462,
+            132
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            105,
+            154,
+            380,
+            250
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            20,
+            217,
+            475,
+            361
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            17,
+            343,
+            101,
+            429
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            402,
+            342,
+            487,
+            429
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000003.jpg",
+      "width": 661,
+      "height": 468,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            33,
+            61,
+            625,
+            191
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            67,
+            0,
+            597,
+            112
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            31,
+            124,
+            162,
+            217
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            504,
+            122,
+            633,
+            215
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            37,
+            125,
+            154,
+            137
+          ]
+        },
+        {
+          "class": "daytime_running_light",
+          "bbox": [
+            513,
+            123,
+            625,
+            135
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            125,
+            154,
+            549,
+            358
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            16,
+            315,
+            646,
+            465
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000004.jpg",
+      "width": 814,
+      "height": 498,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            17,
+            92,
+            349,
+            217
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            122,
+            34,
+            607,
+            180
+          ]
+        },
+        {
+          "class": "window",
+          "bbox": [
+            257,
+            63,
+            529,
+            181
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            18,
+            177,
+            110,
+            220
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            0,
+            202,
+            133,
+            318
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            0,
+            293,
+            164,
+            406
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            76,
+            352,
+            203,
+            488
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            111,
+            377,
+            183,
+            456
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            662,
+            332,
+            757,
+            446
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            687,
+            347,
+            739,
+            414
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            628,
+            185,
+            801,
+            305
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000005.jpg",
+      "width": 1280,
+      "height": 731,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            40,
+            118,
+            403,
+            262
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            217,
+            78,
+            706,
+            222
+          ]
+        },
+        {
+          "class": "window",
+          "bbox": [
+            374,
+            113,
+            685,
+            230
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            0,
+            194,
+            116,
+            260
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            0,
+            236,
+            167,
+            345
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            0,
+            321,
+            194,
+            464
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            135,
+            468,
+            319,
+            725
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            177,
+            521,
+            278,
+            659
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            975,
+            502,
+            1134,
+            685
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            1011,
+            544,
+            1107,
+            656
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            958,
+            260,
+            1270,
+            466
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000006.jpg",
+      "width": 729,
+      "height": 382,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            62,
+            52,
+            318,
+            149
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            91,
+            33,
+            327,
+            114
+          ]
+        },
+        {
+          "class": "window",
+          "bbox": [
+            211,
+            52,
+            335,
+            119
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            42,
+            98,
+            135,
+            134
+          ]
+        },
+        {
+          "class": "grille",
+          "bbox": [
+            0,
+            112,
+            156,
+            197
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            0,
+            172,
+            167,
+            237
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            72,
+            217,
+            154,
+            286
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            91,
+            232,
+            137,
+            270
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            488,
+            227,
+            548,
+            279
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            501,
+            235,
+            536,
+            267
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            427,
+            105,
+            554,
+            205
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000007.jpg",
+      "width": 745,
+      "height": 334,
+      "objects": [
+        {
+          "class": "hood",
+          "bbox": [
+            28,
+            54,
+            179,
+            136
+          ]
+        },
+        {
+          "class": "windshield",
+          "bbox": [
+            75,
+            12,
+            217,
+            111
+          ]
+        },
+        {
+          "class": "window",
+          "bbox": [
+            164,
+            34,
+            437,
+            169
+          ]
+        },
+        {
+          "class": "headlamp",
+          "bbox": [
+            2,
+            89,
+            45,
+            117
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            95,
+            287,
+            233,
+            333
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            129,
+            298,
+            202,
+            329
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            553,
+            275,
+            655,
+            320
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            574,
+            286,
+            632,
+            316
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            548,
+            99,
+            744,
+            233
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000008.jpg",
+      "width": 940,
+      "height": 364,
+      "objects": [
+        {
+          "class": "window",
+          "bbox": [
+            99,
+            22,
+            670,
+            180
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            54,
+            260,
+            192,
+            362
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            82,
+            280,
+            163,
+            348
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            708,
+            252,
+            849,
+            354
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            739,
+            272,
+            821,
+            339
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            771,
+            96,
+            937,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000009.jpg",
+      "width": 1015,
+      "height": 486,
+      "objects": [
+        {
+          "class": "window",
+          "bbox": [
+            167,
+            56,
+            494,
+            178
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            20,
+            335,
+            157,
+            450
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            58,
+            354,
+            132,
+            432
+          ]
+        },
+        {
+          "class": "tire",
+          "bbox": [
+            593,
+            285,
+            732,
+            430
+          ]
+        },
+        {
+          "class": "wheel",
+          "bbox": [
+            630,
+            310,
+            707,
+            407
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            805,
+            138,
+            1004,
+            326
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000010.jpg",
+      "width": 490,
+      "height": 399,
+      "objects": [
+        {
+          "class": "window",
+          "bbox": [
+            84,
+            39,
+            402,
+            149
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            39,
+            172,
+            450,
+            311
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            22,
+            298,
+            468,
+            384
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "000011.jpg",
+      "width": 862,
+      "height": 655,
+      "objects": [
+        {
+          "class": "window",
+          "bbox": [
+            228,
+            69,
+            623,
+            194
+          ]
+        },
+        {
+          "class": "tailgate",
+          "bbox": [
+            49,
+            173,
+            808,
+            513
+          ]
+        },
+        {
+          "class": "bumper",
+          "bbox": [
+            38,
+            487,
+            833,
+            641
+          ]
+        }
+      ]
+    }
+  ]
+}
