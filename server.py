@@ -12,8 +12,10 @@ from urllib.parse import urlparse, parse_qs
 ROOT = Path(__file__).resolve().parent
 PHOTOS = ROOT.parent / '차량 사진'
 DATA = ROOT / 'data'
-CLASSES = ['bumper', 'hood', 'door', 'fender', 'headlight', 'taillight', 'mirror', 'wheel', 'windshield', 'grille', 'scratch', 'dent', 'crack', 'corrosion', 'broken']
-LABELS = ['범퍼', '보닛', '문', '펜더', '전조등', '후미등', '사이드미러', '바퀴', '유리', '그릴', '긁힘', '찌그러짐', '균열', '부식', '파손']
+# Keep the first ten classes aligned with the current hand-annotated dataset.
+# Tire and wheel are intentionally distinct: tire is rubber; wheel is the rim.
+CLASSES = ['hood', 'grille', 'bumper', 'windshield', 'window', 'headlamp', 'daytime_running_light', 'tire', 'wheel', 'tailgate', 'door', 'fender', 'taillight', 'mirror', 'turn_signal']
+LABELS = ['후드', '그릴', '범퍼', '앞유리', '창문', '헤드램프', '주간주행등', '타이어', '휠', '테일게이트', '도어', '펜더', '후미등', '사이드미러', '방향지시등']
 VEHICLES = {'rexton_sports': '렉스턴 스포츠', 'korando': '코란도'}
 
 def vehicle_key(value):

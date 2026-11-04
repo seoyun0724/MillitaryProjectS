@@ -32,7 +32,7 @@ def main():
         model = YOLO(a.weights)
         names = [model.names[i] for i in range(len(model.names))]
         if names != CLASSES:
-            raise ValueError('모델 클래스가 이 프로젝트의 부품·손상 분류와 일치하지 않습니다.')
+            raise ValueError('모델 클래스가 이 프로젝트의 외장 부품 분류와 일치하지 않습니다.')
         if a.mode == 'validate':
             if not a.data:
                 p.error('--data가 필요합니다.')
@@ -45,7 +45,8 @@ def main():
         for b in result.boxes:
             x1, y1, x2, y2 = b.xyxy[0].tolist()
             boxes.append({'class_id': int(b.cls.item()), 'confidence': float(b.conf.item()), 'x': x1/width, 'y': y1/height, 'w': (x2-x1)/width, 'h': (y2-y1)/height})
-    print(json.dumps({'boxes': boxes, 'status': '검토 필요' if any(b['class_id'] >= 10 for b in boxes) else '손상 미검출 · 정상 여부 미확정'}, ensure_ascii=False))
+    status = '부품 탐지 완료' if boxes else '부품 미검출 · 정상 여부 미확정'
+    print(json.dumps({'boxes': boxes, 'status': status}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
