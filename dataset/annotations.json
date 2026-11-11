@@ -11,10 +11,8 @@
     "wheel",
     "tailgate",
     "door",
-    "fender",
     "taillight",
-    "mirror",
-    "turn_signal"
+    "mirror"
   ],
   "images": [
     {

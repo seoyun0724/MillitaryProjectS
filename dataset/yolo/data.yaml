@@ -13,7 +13,5 @@ names:
   8: wheel
   9: tailgate
   10: door
-  11: fender
-  12: taillight
-  13: mirror
-  14: turn_signal
+  11: taillight
+  12: mirror

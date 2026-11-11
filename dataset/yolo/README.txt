@@ -1,4 +1,1 @@
-YOLO detection export generated from annotations.json.
-Images: 11 (9 train, 2 validation; deterministic hash split).
-Class order is in data.yaml and synchronized with ../annotations.json.
-Important: fender and turn_signal currently have no labeled instances. This small single-vehicle set is a development starter only; it is not a reliable final evaluation split.
+13-class YOLO development export. 11 images: 9 train, 2 validation (deterministic hash split). Fender and turn_signal are intentionally excluded. Small single-vehicle dataset; validation results are not statistically reliable.

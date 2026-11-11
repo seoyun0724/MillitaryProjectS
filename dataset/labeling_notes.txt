@@ -1,8 +1,7 @@
 차량 외장 부품 라벨링
-대상: KGM/쌍용 렉스턴 스포츠 및 칸. 사진마다 정확한 연식/트림은 미상.
-Bounding box는 최종 JPG 픽셀 좌표 [x_min,y_min,x_max,y_max].
-클래스 목록: hood(후드), grille(그릴), bumper(범퍼), windshield(앞유리), window(창문), headlamp(헤드램프), daytime_running_light(주간주행등), tire(타이어), wheel(휠), tailgate(픽업 테일게이트).
-방향지시등은 사진에서 헤드램프와 독립된 경계를 확실히 나누기 어려워 라벨링하지 않음. 겹침/가림은 보이는 영역 기준으로 확실한 객체만 표시.
-요청 스키마에는 confidence 필드가 없으므로 추가하지 않음. 포함 이미지는 육안상 박스 경계 확인이 가능하다고 판단한 항목만 수록.
-원본 대응은 이미지 파일명 숫자 순서가 ZIP 추출 순서이며, 제외 내역은 exclusions.json 참조.
-15-class schema synchronized to server.py. Added visible door, mirror, and taillight boxes. Fender and turn_signal have no new boxes where part boundaries were not clear; do not infer them.
+대상: KGM/쌍용 렉스턴 스포츠 및 칸. 사진별 정확한 연식/트림은 미상.
+클래스 순서(13): hood, grille, bumper, windshield, window, headlamp, daytime_running_light, tire, wheel, tailgate, door, taillight, mirror.
+타이어와 휠은 각각 고무 부분과 림/중앙 휠 부분으로 구분. 펜더와 방향지시등은 이번 학습 범위에서 제외.
+픽셀 바운딩 박스는 정규화된 JPG 기준이며, 방향지시등처럼 독립 경계가 불확실한 항목은 라벨링하지 않음.
+포함 이미지 11장. 원본 대응은 파일명 숫자 순서이며 제외 내역은 exclusions.json 참조.
+YOLO 내보내기는 yolo/에 있으며 9 train, 2 val의 개발용 분할. 작은 단일 차종 표본이므로 최종 성능 평가 용도로 사용하지 않음.
