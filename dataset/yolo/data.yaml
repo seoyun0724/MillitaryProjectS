@@ -1,0 +1,19 @@
+path: .
+train: images/train
+val: images/val
+names:
+  0: hood
+  1: grille
+  2: bumper
+  3: windshield
+  4: window
+  5: headlamp
+  6: daytime_running_light
+  7: tire
+  8: wheel
+  9: tailgate
+  10: door
+  11: fender
+  12: taillight
+  13: mirror
+  14: turn_signal

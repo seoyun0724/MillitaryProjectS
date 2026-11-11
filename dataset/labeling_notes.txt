@@ -5,3 +5,4 @@ Bounding box는 최종 JPG 픽셀 좌표 [x_min,y_min,x_max,y_max].
 방향지시등은 사진에서 헤드램프와 독립된 경계를 확실히 나누기 어려워 라벨링하지 않음. 겹침/가림은 보이는 영역 기준으로 확실한 객체만 표시.
 요청 스키마에는 confidence 필드가 없으므로 추가하지 않음. 포함 이미지는 육안상 박스 경계 확인이 가능하다고 판단한 항목만 수록.
 원본 대응은 이미지 파일명 숫자 순서가 ZIP 추출 순서이며, 제외 내역은 exclusions.json 참조.
+15-class schema synchronized to server.py. Added visible door, mirror, and taillight boxes. Fender and turn_signal have no new boxes where part boundaries were not clear; do not infer them.
