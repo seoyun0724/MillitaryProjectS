@@ -1,0 +1,14 @@
+[
+  {
+    "source_page": "https://carskorea.shop/ssangyong/rexton-sports/uid-3856611/",
+    "image_url": "https://carskorea.storage.yandexcloud.net/3_c9347e55_1774760785.webp",
+    "angle": "rear",
+    "reason": "원본 이미지 서버가 404를 반환해 파일을 확보하지 못함. 라벨링 데이터에 포함하지 않음."
+  },
+  {
+    "source_page": "https://kurier.at/motor/news/ssangyong-bringt-mit-dem-rexton-sports-neuen-pick-up/400054481",
+    "image_url": "https://image.kurier.at/images/cfs_616w/2649029/rexton_sports_seitenansicht.jpg",
+    "angle": "side",
+    "reason": "원본 이미지 서버가 403을 반환해 파일을 확보하지 못함. 라벨링 데이터에 포함하지 않음."
+  }
+]

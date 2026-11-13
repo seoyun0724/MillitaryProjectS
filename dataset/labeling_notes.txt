@@ -3,5 +3,7 @@
 클래스 순서(13): hood, grille, bumper, windshield, window, headlamp, daytime_running_light, tire, wheel, tailgate, door, taillight, mirror.
 타이어와 휠은 각각 고무 부분과 림/중앙 휠 부분으로 구분. 펜더와 방향지시등은 이번 학습 범위에서 제외.
 픽셀 바운딩 박스는 정규화된 JPG 기준이며, 방향지시등처럼 독립 경계가 불확실한 항목은 라벨링하지 않음.
-포함 이미지 11장. 원본 대응은 파일명 숫자 순서이며 제외 내역은 exclusions.json 참조.
-YOLO 내보내기는 yolo/에 있으며 9 train, 2 val의 개발용 분할. 작은 단일 차종 표본이므로 최종 성능 평가 용도로 사용하지 않음.
+포함 이미지 17장(기존 라벨 사진 11장 + 웹 수집 후보 6장). 외부 이미지 출처, 대략적인 연식·트림, 촬영 각도는 web_sources.json 참조. 내려받지 못한 후보는 web_exclusions.json에 기록.
+이미지는 JPG/RGB, 긴 변 최대 1280px로 저장. 신규 픽셀 상자는 규격화된 JPG를 기준으로 수동 지정했으며 annotations.json과 YOLO txt에 같은 라벨을 내보냄.
+YOLO 내보내기는 yolo/에 있으며 15 train, 2 val의 개발용 분할. 새 외부 사진은 모두 train에 두고 기존 2장 validation은 그대로 유지함. 작은 단일 차종 표본이므로 최종 성능 평가 용도로 사용하지 않음.
+웹 사진은 출처 페이지와 원본 이미지 URL을 보존함. 일부는 칸 또는 수출형 Musso Sports이며 트림·연식 차이가 있을 수 있어 실제 차량 사진으로 추가 검증 필요.

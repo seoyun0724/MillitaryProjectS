@@ -1,1 +1,1 @@
-13-class YOLO development export. 11 images: 9 train, 2 validation (deterministic hash split). Fender and turn_signal are intentionally excluded. Small single-vehicle dataset; validation results are not statistically reliable.
+13-class YOLO development dataset. 17 total images: 15 train, 2 validation. Six web-collected photos added to train; source metadata is in dataset/web_sources.json. Validation remains the original two-image split and is not statistically reliable. Fender and turn_signal are intentionally excluded.

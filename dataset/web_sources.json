@@ -1,0 +1,98 @@
+[
+  {
+    "file": "web_001_front_2021.jpg",
+    "bytes": 162952,
+    "source_page": "https://www.top-rider.com/news/articleView.html?idxno=60865",
+    "image_url": "https://www.top-rider.com/data/trd/image/202104/60865_127382_3723.jpg",
+    "angle": "front_three_quarter",
+    "vehicle_variant": "2021 facelift Rexton Sports",
+    "note": "Front profile, clear body view",
+    "download_status": "downloaded",
+    "dataset_file": "000012.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_002_side_2019.jpg",
+    "bytes": 633173,
+    "source_page": "https://stage-autos.yahoo.com.tw/new-cars/trim/ssangyong-rexton-sports-2019-2.2%E6%9F%B4%E6%B2%B94wd%E8%B1%AA%E8%8F%AF%E5%9E%8B/spec",
+    "image_url": "https://stage-autos.yahoo.com.tw/p/r/w1200/car-trim/April2019/38f15d396351befd1f019fa4d95bcb9e.jpeg",
+    "angle": "side_three_quarter",
+    "vehicle_variant": "2019 Rexton Sports",
+    "note": "Blue vehicle, side and front visible",
+    "download_status": "downloaded",
+    "dataset_file": "000013.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_003_side_khan.jpg",
+    "bytes": 407876,
+    "source_page": "https://www.shinailbo.co.kr/news/articleView.html?idxno=1407617",
+    "image_url": "https://www.shinailbo.co.kr/news/photo/202105/1407617_615803_1112.jpg",
+    "angle": "side",
+    "vehicle_variant": "The New Rexton Sports Khan",
+    "note": "Black Khan side profile",
+    "download_status": "downloaded",
+    "dataset_file": "000014.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_004_side_2018.jpg",
+    "bytes": 63974,
+    "source_page": "https://v.daum.net/v/20180506110127903",
+    "image_url": "https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F201805%2F06%2Finews24%2F20180506110124826kudx.jpg",
+    "angle": "side_three_quarter",
+    "vehicle_variant": "2018 Rexton Sports",
+    "note": "Dark vehicle, outdoor side view",
+    "download_status": "downloaded",
+    "dataset_file": "000015.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_005_rear.jpg",
+    "bytes": 0,
+    "source_page": "https://carskorea.shop/ssangyong/rexton-sports/uid-3856611/",
+    "image_url": "https://carskorea.storage.yandexcloud.net/3_c9347e55_1774760785.webp",
+    "angle": "rear",
+    "vehicle_variant": "2018 Rexton Sports",
+    "note": "Rear view; verify identity and plate before use; Response status code does not indicate success: 404 (Not Found).",
+    "download_status": "failed",
+    "dataset_file": null,
+    "annotation_status": "excluded_download_failed"
+  },
+  {
+    "file": "web_006_side_studio.jpg",
+    "bytes": 285122,
+    "source_page": "https://m.carisyou.com/car/glryView/5638/54258/All/All?glryCtgry=N&serialNbr=5",
+    "image_url": "https://file.carisyou.com/upload/2018/01/10/FILE_2018011012594234013.jpg",
+    "angle": "side",
+    "vehicle_variant": "2018 Rexton Sports",
+    "note": "White studio side view",
+    "download_status": "downloaded",
+    "dataset_file": "000016.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_007_front_road.jpg",
+    "bytes": 118644,
+    "source_page": "https://noticias.coches.com/ssangyong-musso-sports-2023",
+    "image_url": "https://images.coches.com/_news_/2023/01/SsangYong-Musso-Sports-2023-36.jpeg",
+    "angle": "front_three_quarter",
+    "vehicle_variant": "2023 Musso Sports export-market variant",
+    "note": "Road photo, may differ from Korean-market trim",
+    "download_status": "downloaded",
+    "dataset_file": "000017.jpg",
+    "annotation_status": "included_and_labeled"
+  },
+  {
+    "file": "web_008_side_road.jpg",
+    "bytes": 0,
+    "source_page": "https://kurier.at/motor/news/ssangyong-bringt-mit-dem-rexton-sports-neuen-pick-up/400054481",
+    "image_url": "https://image.kurier.at/images/cfs_616w/2649029/rexton_sports_seitenansicht.jpg",
+    "angle": "side",
+    "vehicle_variant": "2018 Rexton Sports",
+    "note": "Silver side view; Response status code does not indicate success: 403 (Forbidden).",
+    "download_status": "failed",
+    "dataset_file": null,
+    "annotation_status": "excluded_download_failed"
+  }
+]
